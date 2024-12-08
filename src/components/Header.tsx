@@ -39,7 +39,7 @@ const Header = () => {
             <Link
               href={link.path}
               key={index}
-              className="hover:text-gray-300 transition"
+              className="hover:text-[#b9982b] transition cursor-pointer"
             >
               {link.name}
             </Link>
@@ -49,7 +49,7 @@ const Header = () => {
         {/* Icons */}
         <div className="flex items-center space-x-6 lg:space-x-10 text-2xl">
           {icons.map((icon, index) => (
-            <Link href={icon.path} key={index} className="hover:opacity-75">
+            <Link href={icon.path} key={index} className="hover:text-[#b9982b] transition cursor-pointer">
               {icon.icon}
             </Link>
           ))}

@@ -46,7 +46,7 @@ const page = () => {
       <div>
         <section className="flex flex-cols-2 lg:flex-cols-2 gap-32">
           <div className="flex gap-6">
-            <div className="grid grid-cols-1 gap-3">
+            <div className="grid grid-cols-1">
               <Image
                 src="/p1.png"
                 alt="Rectangle"
